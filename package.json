@@ -1,0 +1,34 @@
+{
+  "name": "car-parts-saas-backend",
+  "version": "1.0.0",
+  "description": "Backend scraper and API for car parts SaaS platform",
+  "main": "backend-server.js",
+  "scripts": {
+    "start": "node backend-server.js",
+    "dev": "nodemon backend-server.js",
+    "test": "node -e \"console.log('Tests not configured yet')\""
+  },
+  "keywords": [
+    "car-parts",
+    "saas",
+    "scraper",
+    "puppeteer",
+    "api"
+  ],
+  "author": "You",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "puppeteer": "^21.6.1",
+    "cheerio": "^1.0.0-rc.12",
+    "node-cache": "^5.1.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
